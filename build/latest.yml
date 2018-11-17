@@ -1,0 +1,9 @@
+version: 2.0.0
+files:
+  - url: AutoBomber-Setup-2.0.0.exe
+    sha512: xpD3zXLfJ4xph4Y3NYdvWcAqAw4o1svDY0oPe/GJc/DvkVlHatcmEzrAbGVZJ5Ec3U5/hHzzi5GYVGJkI++/9g==
+    size: 45756661
+path: AutoBomber-Setup-2.0.0.exe
+sha512: xpD3zXLfJ4xph4Y3NYdvWcAqAw4o1svDY0oPe/GJc/DvkVlHatcmEzrAbGVZJ5Ec3U5/hHzzi5GYVGJkI++/9g==
+sha2: d641e1bedffc2689933d9b81c949e49ad4344dcfbf4c17612928b29b9baced6c
+releaseDate: '2018-11-15T15:04:09.477Z'

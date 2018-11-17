@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>联众http接口演示</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<style>
+table{width:500px; margin:0 auto 15px; border-collapse:collapse;}
+td, th{height:26px; padding:5px; border:1px #cecece solid; color:#555;}
+th{background:#eaeaea}
+.bgtt{background:#f4f4f4; font-size:14px}
+</style>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" action="http://v1-http-api.jsdama.com/api.php?mod=php&act=upload">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<th align="center" colspan="2">一、上传验证码</th>
+</tr>
+<tr>
+	<td width="150" align="right" class="bgtt">联众帐号：</td>
+	<td><input type="text" name="user_name" value="" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">联众密码：</td>
+	<td><input type="text" name="user_pw" value="" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">验证码图片：</td>
+	<td><input type="file" name="upload" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">验证码类型：</td>
+	<td><input type="text" name="yzmtype_mark" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">验证码最小长度(可选)：</td>
+	<td><input type="text" name="yzm_minlen" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">验证码最大长度(可选)：</td>
+	<td><input type="text" name="yzm_maxlen" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">软件Key(或作者帐号,可选)：</td>
+	<td><input type="text" name="zztool_token" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">打码工贴边提示模板ID(可选)：</td>
+	<td><input type="text" name="worker_tips_id" /></td>
+</tr>
+<tr>
+	<td class="bgtt">&nbsp;</td>
+	<td><input type="submit" value="提 交" /></td>
+</tr>
+</table>
+</form>
+	
+	
+<form method="post" action="http://v1-http-api.jsdama.com/api.php?mod=php&act=error">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<th align="center" colspan="2">二、识别结果报错</th>
+</tr>
+<tr>
+	<td width="150" align="right" class="bgtt">联众帐号：</td>
+	<td><input type="text" name="user_name" value="" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">联众密码：</td>
+	<td><input type="text" name="user_pw" value="" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">验证码ID：</td>
+	<td><input type="text" name="yzm_id" /></td>
+</tr>
+<tr>
+	<td class="bgtt">&nbsp;</td>
+	<td><input type="submit" value="提 交"></td>
+</tr>
+</table>
+</form>
+	
+	
+	
+<form method="post" action="http://v1-http-api.jsdama.com/api.php?mod=php&act=point">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<th align="center" colspan="2">三、查看账户剩余点数</th>
+</tr>
+<tr>
+	<td width="150" align="right" class="bgtt">联众帐号：</td>
+	<td><input type="text" name="user_name" value="" /></td>
+</tr>
+<tr>
+	<td align="right" class="bgtt">联众密码：</td>
+	<td><input type="text" name="user_pw" value="" /></td>
+</tr>
+<tr>
+	<td class="bgtt">&nbsp;</td>
+	<td><input type="submit" value="提 交"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

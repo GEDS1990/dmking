@@ -1,0 +1,10 @@
+version: 2.0.0
+files:
+  - url: AutoBomber-2.0.0-mac.zip
+    sha512: UOHL/O8tF1duohZ9/WXhlqEro8WVAqLwanzglBs0qTiw+simzUHtNDsvP2BJW6OR83bGM8TL+PXvpCLRgujVqA==
+  - url: AutoBomber-2.0.0.dmg
+    sha512: +O5X+WPH31gai0gjrLvjKOdRDQsZxOGN9xY7XMHQJsEA8fctyDPhWrqqq4Y0OGYQNVkEKtxFoiu63ROJxkMNwg==
+    size: 61132144
+path: AutoBomber-2.0.0-mac.zip
+sha512: UOHL/O8tF1duohZ9/WXhlqEro8WVAqLwanzglBs0qTiw+simzUHtNDsvP2BJW6OR83bGM8TL+PXvpCLRgujVqA==
+releaseDate: '2018-11-15T14:58:11.938Z'
